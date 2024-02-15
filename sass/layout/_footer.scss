@@ -1,0 +1,109 @@
+.footer {
+    justify-content: space-between;
+    margin-top: 16.5rem;
+    padding-bottom: 7.7rem;
+
+    &__text {
+        @include flex-column;
+        gap: 2.35rem;
+        margin-right: 2.4rem;
+        // padding-right: 10rem;
+
+        &__logo {
+            align-items: center;
+            gap: .6rem;
+
+            span {
+                color: var(--text-primary-dark);
+                font-weight: 400;
+                font-size: 2.4rem;
+                line-height: 2.9rem;
+            }
+        }
+
+        &__content {
+
+            p {
+                color: var(--text-secondary);
+                @include font-tiny-footer;
+                // padding-right: 15.5rem;
+            }
+        }
+
+        &__copyright {
+
+            span {
+                color: var(--text-secondary);
+                @include font-tiny-footer;
+            }
+        }
+
+    }
+
+    &__links {
+        gap: 7rem;
+        margin-right: 8.1rem;
+
+        &__col {
+            @include flex-column;
+            gap: 2rem;
+        }
+
+        &__title {
+
+            h5 {
+                color: var(--color-primary);
+                text-transform: uppercase;
+                font-weight: 900;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+            }
+        }
+
+        &__list {
+            ul {
+                @include flex-column;
+                gap: 2.5rem;
+            }
+
+            a {
+                color: var(--text-secondary);
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    &__social-networks {
+        @include flex-column;
+        align-items: center;
+        margin-top: 3.7rem;
+
+        &__links {
+
+            ul {
+                gap: 1.8rem;
+            }
+        }
+
+        &__language {
+            margin-top: 2.35rem;
+            align-items: center;
+            padding: .92rem 1.5rem .92rem 1.3rem;
+            background-color: var(--paper-light);
+            border: .1rem solid var(--color-primary);
+            box-shadow: 0rem .3rem 4.9rem .9rem rgba(0, 0, 0, 0.06);
+            border-radius: .7rem;
+
+            span {
+                color: var(--color-primary);
+                font-weight: 600;
+                font-size: 1.8rem;
+                line-height: 2.1rem;
+                margin-left: .55rem;
+                margin-right: 4.724rem;
+            }
+        }
+    }
+}

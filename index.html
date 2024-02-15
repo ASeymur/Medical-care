@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Medical</title>
+</head>
+
+<body class="body-bg">
+    <main>
+        <header class="header flex space-between margin-top container">
+            <div class="header__left">
+                <div class="header__left__logo">
+                    <img src="img/Luxi-Logo.svg" alt="logo">
+                </div>
+                <div class="header__left__text">
+                    <span>
+                        Medical
+                    </span>
+                </div>
+                <div class="header__left__btn">
+                    <button id="dark-mode__btn">
+                        <img src="img/moon-outline.svg" alt="moon-icon" id="bg-icon">
+                    </button>
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__right__nav">
+                    <ul class="header__right__list flex">
+                        <li><a href="#"> About </a></li>
+                        <li><a href="#"> Facility </a></li>
+                        <li><a href="#"> Ask Doctors </a></li>
+                        <li><a href="#"> Clinics </a></li>
+                        <li><a href="#"> Contact Us </a></li>
+                    </ul>
+                </div>
+                <div class="header__right__settings">
+                    <a href="#">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M31.67 19.8C31.7617 19.2604 31.7617 18.6302 31.7617 18C31.7617 17.3698 31.67 16.8302 31.67 16.2L35.5353 13.2302C35.904 12.9603 35.9956 12.5104 35.7197 12.0603L32.0376 5.84994C31.8534 5.48959 31.3014 5.31037 30.9328 5.48959L26.3302 7.28969C25.4096 6.56986 24.3057 5.9396 23.201 5.48959L22.5565 0.71983C22.4648 0.360348 22.0962 0 21.6359 0H14.2718C13.8115 0 13.443 0.360348 13.3513 0.71983L12.615 5.48959C11.5102 5.9396 10.4979 6.56977 9.48486 7.28969L4.88229 5.48959C4.422 5.31037 3.96171 5.48959 3.77747 5.84994L0.0953943 12.0604C-0.0879781 12.4198 0.00357827 12.9603 0.279632 13.2302L4.23793 16.2C4.23793 16.8302 4.1462 17.3698 4.1462 18C4.1462 18.6302 4.23793 19.1698 4.23793 19.8L0.372487 22.7698C0.00383788 23.0397 -0.0877185 23.4896 0.188162 23.9397L3.87024 30.1501C4.05456 30.5104 4.60649 30.6896 4.97506 30.5104L9.57771 28.7103C10.4982 29.4301 11.6022 30.0604 12.7069 30.5104L13.4432 35.2802C13.5357 35.7302 13.9034 36 14.3637 36H21.7278C22.1881 36 22.5567 35.6397 22.6484 35.2802L23.3855 30.5104C24.4895 30.0604 25.5026 29.4302 26.5147 28.7103L31.1174 30.5104C31.5776 30.6896 32.0378 30.5104 32.2222 30.1501L35.9042 23.9396C36.0885 23.5802 35.996 23.0397 35.7199 22.7698L31.67 19.8ZM17.9539 24.3C14.3636 24.3 11.5103 21.5104 11.5103 18C11.5103 14.4895 14.3636 11.7 17.9539 11.7C21.5443 11.7 24.3976 14.4895 24.3976 18C24.3976 21.5104 21.5443 24.3 17.9539 24.3Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="medical-care container flex space-between">
+                <div class="medical-care__left">
+                    <div class="medical-care__heading">
+                        <div class="medical-care__title">
+                            <h2>
+                                Online Medical Care
+                            </h2>
+                        </div>
+                        <div class="medical-care__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipiscing Integer id orci sed ante tincidunt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="medical-care__search flex">
+                        <input class="medical-care__input" type="text" placeholder="Type doctor’s name…">
+                        <button class="btn btn__search">Search</button>
+                    </div>
+                </div>
+                <div class="medical-care__right">
+                    <img src="img/Dots-small.svg" class="medical-care__right--dots" alt="dots">
+                    <a href="#" class="medical-care__preview">
+                        <img src="img/img-big.svg" alt="img-big">
+                        <svg width="198" height="197" viewBox="0 0 198 197" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_0_250)">
+                                <ellipse cx="99.25" cy="95.75" rx="40.75" ry="40.25" fill="white" />
+                            </g>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M116.471 94.3344L89.9356 78.8C89.6116 78.6125 89.278 78.5 88.8967 78.5C87.8578 78.5 87.0095 79.3438 87.0095 80.375H87V112.625H87.0095C87.0095 113.656 87.8578 114.5 88.8967 114.5C89.2875 114.5 89.6116 114.369 89.9642 114.181L116.471 98.6656C117.1 98.15 117.5 97.3719 117.5 96.5C117.5 95.6281 117.1 94.8594 116.471 94.3344Z"
+                                fill="#03A9F4" />
+                            <defs>
+                                <filter id="filter0_d_0_250" x="0.5" y="0.5" width="197.5" height="196.5"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feMorphology radius="9" operator="dilate" in="SourceAlpha"
+                                        result="effect1_dropShadow_0_250" />
+                                    <feOffset dy="3" />
+                                    <feGaussianBlur stdDeviation="24.5" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_250" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_250"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="about-us flex">
+                <div class="about-us__left">
+                    <div class="about-us__left__bg">
+                        <svg class="about-us__bg__circle" width="651" height="692" viewBox="0 0 651 692" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle opacity="0.2" cx="305" cy="346" r="346" fill="#B3E5FC" />
+                        </svg>
+                    </div>
+                    <div class="about-us__left__title">
+                        <div class="about-us__left__circle">
+                            <h2 class="about-us__title heading-secondary">
+                                About Us
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="about-us__left__dots">
+                        <img class="about-us__dots" src="img/Dots-big.svg" alt="dots">
+                    </div>
+                </div>
+                <div class="about-us__right">
+                    <div class="about-us__right__heading">
+                        <h3>
+                            Nulla lobortis nunc vitae nisi semper semper velit lobortis magna
+                        </h3>
+                    </div>
+                    <div class="about-us__right__content">
+                        <div class="about-us__right__clinics-doctors">
+                            <div class="about-us__right__info">
+                                <span>+200</span>
+                                <a href="#" class="btn__clinics-doctors btn__clinics-doctors--clinics">Clinics</a>
+                            </div>
+                            <div class="about-us__right__line"></div>
+                        </div>
+
+                        <div class="about-us__right__clinics-doctors">
+                            <div class="about-us__right__info">
+                                <span>+500</span>
+                                <a href="#" class="btn__clinics-doctors btn__clinics-doctors--doctors">Doctors</a>
+                            </div>
+                            <div class="about-us__right__line"></div>
+                        </div>
+
+                        <div class="about-us__right__schedule">
+                            <span class="about-us__right__schedule--digits">24</span>
+                            <span class="about-us__right__schedule--text">Hours Open</span>
+                        </div>
+                    </div>
+                    <div class="about-us__right__text">
+                        <p>
+                            Aliquam lobortis magna neque, gravida consequat velit venenatis at.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clinic-facilities flex">
+                <div class="clinic-facilities__content">
+                    <div class="clinic-facilities__content__card">
+                        <div class="clinic-facilities__content__img">
+                            <img src="img/600x400.svg" alt="600x400">
+                        </div>
+                        <div class="clinic-facilities__content__text">
+                            <h4>Lorem ipsum dolor</h4>
+                            <p>Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus.</p>
+                        </div>
+                        <div class="clinic-facilities__content__button">
+                            <a class="btn btn__clinic-facilities" chref="#">SEE DETAIL</a>
+                        </div>
+                    </div>
+
+                    <div class="clinic-facilities__content__card clinic-facilities__content__card--padding-left">
+                        <div class="clinic-facilities__content__img">
+                            <img src="img/600x400.svg" alt="600x400">
+                        </div>
+                        <div class="clinic-facilities__content__text">
+                            <h4>Lorem ipsum dolor</h4>
+                            <p>Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus.</p>
+                        </div>
+                        <div class="clinic-facilities__content__button">
+                            <a class="btn btn__clinic-facilities" chref="#">SEE DETAIL</a>
+                        </div>
+                    </div>
+
+                    <div class="clinic-facilities__content__card">
+                        <div class="clinic-facilities__content__img">
+                            <img src="img/600x400.svg" alt="600x400">
+                        </div>
+                        <div class="clinic-facilities__content__text">
+                            <h4>Lorem ipsum dolor</h4>
+                            <p>Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus.</p>
+                        </div>
+                        <div class="clinic-facilities__content__button">
+                            <a class="btn btn__clinic-facilities" chref="#">SEE DETAIL</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clinic-facilities__heading">
+                    <div class="clinic-facilities__heading__icon">
+                        <img src="img/clinic-facilities-icon.svg" alt="icon">
+                    </div>
+                    <div class="clinic-facilities__heading__title">
+                        <h2 class="clinic-facilities__title heading-primary">Clinic Facilities</h2>
+                    </div>
+                    <div class="clinic-facilities__heading__arrows">
+                        <a href="#">
+                            <svg class="clinic-facilities__heading__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.1562 10.6055L6.21284 10.6055L14.0223 2.79596L12 0.84375L0.84375 12L12 23.1562L13.9521 21.204L6.21284 13.3945L23.1562 13.3945V10.6055Z" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="clinic-facilities__heading__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.84375 13.3945H17.7872L9.97765 21.204L12 23.1562L23.1562 12L12 0.84375L10.0479 2.79603L17.7872 10.6055H0.84375V13.3945Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-secondary">
+                <div class="our-speciality flex">
+                    <div class="our-speciality__left">
+                        <div class="our-speciality__circle our-speciality__circle--big">
+                            <div class="our-speciality__circle__flask">
+                                <a href="#">
+                                    <img src="img/flask.svg" alt="icon">
+                                </a>
+                            </div>
+    
+                            <div class="our-speciality__circle__medkit">
+                                <a href="#">
+                                    <img src="img/medkit.svg" alt="icon">
+                                </a>
+                            </div>
+    
+                            <div class="our-speciality__circle__heart">
+                                <a href="#">
+                                    <img src="img/heart.svg" alt="icon">
+                                </a>
+                            </div>
+    
+                            <div class="our-speciality__circle__rose">
+                                <a href="#">
+                                    <img src="img/ios-rose.svg" alt="icon">
+                                </a>
+                            </div>
+                            <div class="our-speciality__circle__pulse">
+                                <a href="#">
+                                    <img src="img/ios-pulse-strong.svg" alt="icon">
+                                </a>
+                            </div>
+                            <div class="our-speciality__circle__contacts">
+                                <a href="#">
+                                    <img src="img/android-contacts.svg" alt="icon">
+                                </a>
+                            </div>
+                            <div class="our-speciality__circle__radio-waves">
+                                <a href="#">
+                                    <img src="img/radio-waves.svg" alt="icon">
+                                </a>
+                            </div>
+    
+                            <div class="our-speciality__circle our-speciality__circle--small">
+                                <div class="our-speciality__heading">
+                                    <h2 class="heading-secondary">
+                                        Our <br> Speciality
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-speciality__right">
+                        <div class="our-speciality__right__title">
+                            <h3>
+                                Nulla lobortis nunc vitae nisi semper semper velit
+                            </h3>
+                        </div>
+                        <div class="our-speciality__right__content">
+                            <p>
+                                Curabitur egestas consequat lorem, vel fermentum augue porta id. Aliquam lobortis magna
+                                neque, gravida consequat velit venenatis at. Duis sed augue vel fermentum augue porta id.
+                                Aliquam lobortis magna neque, gravida consequat velit venen
+                            </p>
+                        </div>
+                        <div class="our-speciality__right__doctors flex">
+                            <div class="our-speciality__right__doctors__list1 flex">
+                                <a href="#" class="our-speciality__right__doctors__dentist">Dentist</a>
+                                <a href="#" class="our-speciality__right__doctors__padriatic">Padriatic</a>
+                                <a href="#" class="our-speciality__right__doctors__cardiology">Cardiology</a>
+                            </div>
+                            <div class="our-speciality__right__doctors__list2 flex">
+                                <a href="#" class="our-speciality__right__doctors__traumatologi">Traumatologi</a>
+                                <a href="#" class="our-speciality__right__doctors__othopaedi">Othopaedi</a>
+                                <a href="#" class="our-speciality__right__doctors__anestesiologi">Anestesiologi</a>
+                            </div>
+                            <div class="our-speciality__right__doctors__list3 flex">
+                                <a href="#" class="our-speciality__right__doctors__reumatologi">Reumatologi</a>
+                                <a href="#" class="our-speciality__right__doctors__andrologi flex">Andrologi</a>
+                                <a href="#" class="our-speciality__right__doctors__ortodonsia flex">Ortodonsia</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="ask-doctos flex">
+                    <div class="ask-doctos__left flex">
+                        <div class="ask-doctos__left__title">
+                            <h2 class="ask-doctos__title heading-primary">
+                                Ask <br> Doctos
+                            </h2>
+                        </div>
+                        <div class="ask-doctos__left__list">
+                            <ul class="ask-doctos__list flex">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Orthopedic</a></li>
+                                <li><a href="#">Nutritionist</a></li>
+                                <li><a href="#">Pediatric</a></li>
+                                <li><a href="#">Anaesthestic</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ask-doctos__right flex">
+                        <div class="ask-doctos__right__column">
+                            <div class="ask-doctos__card flex">
+                                <div class="ask-doctos__card__top flex">
+                                    <div class="ask-doctos__card__img">
+                                        <img src="img/avatar-female.svg" alt="icon">
+                                    </div>
+                                    <div class="ask-doctos__card__text flex">
+                                        <span class="ask-doctos__card__name">dr. Jena Doe</span>
+                                        <span class="ask-doctos__card__profession">Pediatric Surgeon</span>
+                                    </div>
+    
+                                </div>
+                                <div class="ask-doctos__card__bottom flex">
+                                    <div class="ask-doctos__card__info flex">
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M20.1674 10.9335C20.9401 10.6816 21.5 9.9536 21.5 9.09686C21.5 8.03294 20.6378 7.16499 19.5684 7.16499H13.8238C13.9358 5.76509 14.3837 4.1636 13.8854 2.27653C13.4655 0.686244 11.6794 -0.506473 10.9516 0.215877C10.6716 0.490258 10.7556 1.06702 10.7556 2.10855C10.7556 4.50518 9.75898 6.92981 8.52721 8.19532C8.00091 8.73849 7.11628 8.92327 6.27643 8.95687V8.06093H0V21.5H6.27083V19.7081C7.42422 19.6801 9.21589 19.9993 10.5148 20.0777C13.4263 20.2513 16.2258 19.9433 17.5863 19.6241C18.9469 19.305 19.546 18.8962 19.546 17.9106C19.546 17.5523 19.4396 17.2219 19.2604 16.9419C19.9211 16.6787 20.3858 16.0348 20.3858 15.2788C20.3858 14.8757 20.2514 14.5061 20.0275 14.2037C20.6938 13.9461 21.1697 13.2966 21.1697 12.535C21.1641 11.8351 20.7553 11.2247 20.1674 10.9335ZM2.6875 19.6913C2.19479 19.6913 1.79167 19.2938 1.79167 18.7954C1.79167 18.3026 2.19479 17.8995 2.6875 17.8995C3.18021 17.8995 3.58333 18.297 3.58333 18.7954C3.58333 19.2882 3.18021 19.6913 2.6875 19.6913Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2.48077" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <rect y="7.3125" width="21.5" height="12.1875"
+                                                    fill="var(--text-disabled)" />
+                                                <rect x="17.3654" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M19.0192 3.25V4.875H17.3654V3.25H14.8846V1.73164V1.625C14.8588 0.700781 14.1817 0 13.2204 0H8.09868C7.13738 0 6.61538 0.695703 6.61538 1.625V1.73164V3.25H4.13462V4.875H2.48077V3.25H0V6.5H21.5V3.25H19.0192ZM14.0577 3.22461V3.25H7.44231V3.22461V1.73164C7.44231 1.21367 7.59219 0.8125 8.15036 0.8125H13.1687C13.7063 0.8125 14.0577 1.20352 14.0577 1.73164V3.22461Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>4 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="ask-doctos__card__btn">
+                                        <button class="btn btn__ask-doctos">Chat</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ask-doctos__card flex">
+                                <div class="ask-doctos__card__top flex">
+                                    <div class="ask-doctos__card__img">
+                                        <img src="img/avatar-male.svg" alt="icon">
+                                    </div>
+                                    <div class="ask-doctos__card__text flex">
+                                        <span class="ask-doctos__card__name">dr. John Doe</span>
+                                        <span class="ask-doctos__card__profession">Pediatric Surgeon</span>
+                                    </div>
+    
+                                </div>
+                                <div class="ask-doctos__card__bottom flex">
+                                    <div class="ask-doctos__card__info flex">
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M20.1674 10.9335C20.9401 10.6816 21.5 9.9536 21.5 9.09686C21.5 8.03294 20.6378 7.16499 19.5684 7.16499H13.8238C13.9358 5.76509 14.3837 4.1636 13.8854 2.27653C13.4655 0.686244 11.6794 -0.506473 10.9516 0.215877C10.6716 0.490258 10.7556 1.06702 10.7556 2.10855C10.7556 4.50518 9.75898 6.92981 8.52721 8.19532C8.00091 8.73849 7.11628 8.92327 6.27643 8.95687V8.06093H0V21.5H6.27083V19.7081C7.42422 19.6801 9.21589 19.9993 10.5148 20.0777C13.4263 20.2513 16.2258 19.9433 17.5863 19.6241C18.9469 19.305 19.546 18.8962 19.546 17.9106C19.546 17.5523 19.4396 17.2219 19.2604 16.9419C19.9211 16.6787 20.3858 16.0348 20.3858 15.2788C20.3858 14.8757 20.2514 14.5061 20.0275 14.2037C20.6938 13.9461 21.1697 13.2966 21.1697 12.535C21.1641 11.8351 20.7553 11.2247 20.1674 10.9335ZM2.6875 19.6913C2.19479 19.6913 1.79167 19.2938 1.79167 18.7954C1.79167 18.3026 2.19479 17.8995 2.6875 17.8995C3.18021 17.8995 3.58333 18.297 3.58333 18.7954C3.58333 19.2882 3.18021 19.6913 2.6875 19.6913Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2.48077" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <rect y="7.3125" width="21.5" height="12.1875"
+                                                    fill="var(--text-disabled)" />
+                                                <rect x="17.3654" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M19.0192 3.25V4.875H17.3654V3.25H14.8846V1.73164V1.625C14.8588 0.700781 14.1817 0 13.2204 0H8.09868C7.13738 0 6.61538 0.695703 6.61538 1.625V1.73164V3.25H4.13462V4.875H2.48077V3.25H0V6.5H21.5V3.25H19.0192ZM14.0577 3.22461V3.25H7.44231V3.22461V1.73164C7.44231 1.21367 7.59219 0.8125 8.15036 0.8125H13.1687C13.7063 0.8125 14.0577 1.20352 14.0577 1.73164V3.22461Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>4 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="ask-doctos__card__btn">
+                                        <button class="btn btn__ask-doctos">Chat</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ask-doctos__card flex">
+                                <div class="ask-doctos__card__top flex">
+                                    <div class="ask-doctos__card__img">
+                                        <img src="img/avatar-male.svg" alt="icon">
+                                    </div>
+                                    <div class="ask-doctos__card__text flex">
+                                        <span class="ask-doctos__card__name">dr. Jim Doe</span>
+                                        <span class="ask-doctos__card__profession">Pediatric Surgeon</span>
+                                    </div>
+    
+                                </div>
+                                <div class="ask-doctos__card__bottom flex">
+                                    <div class="ask-doctos__card__info flex">
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M20.1674 10.9335C20.9401 10.6816 21.5 9.9536 21.5 9.09686C21.5 8.03294 20.6378 7.16499 19.5684 7.16499H13.8238C13.9358 5.76509 14.3837 4.1636 13.8854 2.27653C13.4655 0.686244 11.6794 -0.506473 10.9516 0.215877C10.6716 0.490258 10.7556 1.06702 10.7556 2.10855C10.7556 4.50518 9.75898 6.92981 8.52721 8.19532C8.00091 8.73849 7.11628 8.92327 6.27643 8.95687V8.06093H0V21.5H6.27083V19.7081C7.42422 19.6801 9.21589 19.9993 10.5148 20.0777C13.4263 20.2513 16.2258 19.9433 17.5863 19.6241C18.9469 19.305 19.546 18.8962 19.546 17.9106C19.546 17.5523 19.4396 17.2219 19.2604 16.9419C19.9211 16.6787 20.3858 16.0348 20.3858 15.2788C20.3858 14.8757 20.2514 14.5061 20.0275 14.2037C20.6938 13.9461 21.1697 13.2966 21.1697 12.535C21.1641 11.8351 20.7553 11.2247 20.1674 10.9335ZM2.6875 19.6913C2.19479 19.6913 1.79167 19.2938 1.79167 18.7954C1.79167 18.3026 2.19479 17.8995 2.6875 17.8995C3.18021 17.8995 3.58333 18.297 3.58333 18.7954C3.58333 19.2882 3.18021 19.6913 2.6875 19.6913Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2.48077" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <rect y="7.3125" width="21.5" height="12.1875"
+                                                    fill="var(--text-disabled)" />
+                                                <rect x="17.3654" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M19.0192 3.25V4.875H17.3654V3.25H14.8846V1.73164V1.625C14.8588 0.700781 14.1817 0 13.2204 0H8.09868C7.13738 0 6.61538 0.695703 6.61538 1.625V1.73164V3.25H4.13462V4.875H2.48077V3.25H0V6.5H21.5V3.25H19.0192ZM14.0577 3.22461V3.25H7.44231V3.22461V1.73164C7.44231 1.21367 7.59219 0.8125 8.15036 0.8125H13.1687C13.7063 0.8125 14.0577 1.20352 14.0577 1.73164V3.22461Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>4 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="ask-doctos__card__btn">
+                                        <button class="btn btn__ask-doctos">Chat</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ask-doctos__right__column">
+                            <div class="ask-doctos__card flex">
+                                <div class="ask-doctos__card__top flex">
+                                    <div class="ask-doctos__card__img">
+                                        <img src="img/avatar-female.svg" alt="icon">
+                                    </div>
+                                    <div class="ask-doctos__card__text flex">
+                                        <span class="ask-doctos__card__name">dr. Jean Doe</span>
+                                        <span class="ask-doctos__card__profession">Pediatric Surgeon</span>
+                                    </div>
+    
+                                </div>
+                                <div class="ask-doctos__card__bottom flex">
+                                    <div class="ask-doctos__card__info flex">
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M20.1674 10.9335C20.9401 10.6816 21.5 9.9536 21.5 9.09686C21.5 8.03294 20.6378 7.16499 19.5684 7.16499H13.8238C13.9358 5.76509 14.3837 4.1636 13.8854 2.27653C13.4655 0.686244 11.6794 -0.506473 10.9516 0.215877C10.6716 0.490258 10.7556 1.06702 10.7556 2.10855C10.7556 4.50518 9.75898 6.92981 8.52721 8.19532C8.00091 8.73849 7.11628 8.92327 6.27643 8.95687V8.06093H0V21.5H6.27083V19.7081C7.42422 19.6801 9.21589 19.9993 10.5148 20.0777C13.4263 20.2513 16.2258 19.9433 17.5863 19.6241C18.9469 19.305 19.546 18.8962 19.546 17.9106C19.546 17.5523 19.4396 17.2219 19.2604 16.9419C19.9211 16.6787 20.3858 16.0348 20.3858 15.2788C20.3858 14.8757 20.2514 14.5061 20.0275 14.2037C20.6938 13.9461 21.1697 13.2966 21.1697 12.535C21.1641 11.8351 20.7553 11.2247 20.1674 10.9335ZM2.6875 19.6913C2.19479 19.6913 1.79167 19.2938 1.79167 18.7954C1.79167 18.3026 2.19479 17.8995 2.6875 17.8995C3.18021 17.8995 3.58333 18.297 3.58333 18.7954C3.58333 19.2882 3.18021 19.6913 2.6875 19.6913Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2.48077" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <rect y="7.3125" width="21.5" height="12.1875"
+                                                    fill="var(--text-disabled)" />
+                                                <rect x="17.3654" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M19.0192 3.25V4.875H17.3654V3.25H14.8846V1.73164V1.625C14.8588 0.700781 14.1817 0 13.2204 0H8.09868C7.13738 0 6.61538 0.695703 6.61538 1.625V1.73164V3.25H4.13462V4.875H2.48077V3.25H0V6.5H21.5V3.25H19.0192ZM14.0577 3.22461V3.25H7.44231V3.22461V1.73164C7.44231 1.21367 7.59219 0.8125 8.15036 0.8125H13.1687C13.7063 0.8125 14.0577 1.20352 14.0577 1.73164V3.22461Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>4 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="ask-doctos__card__btn">
+                                        <button class="btn btn__ask-doctos">Chat</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ask-doctos__card flex">
+                                <div class="ask-doctos__card__top flex">
+                                    <div class="ask-doctos__card__img">
+                                        <img src="img/avatar-male.svg" alt="icon">
+                                    </div>
+                                    <div class="ask-doctos__card__text flex">
+                                        <span class="ask-doctos__card__name">dr. James Doe</span>
+                                        <span class="ask-doctos__card__profession">Pediatric Surgeon</span>
+                                    </div>
+    
+                                </div>
+                                <div class="ask-doctos__card__bottom flex">
+                                    <div class="ask-doctos__card__info flex">
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M20.1674 10.9335C20.9401 10.6816 21.5 9.9536 21.5 9.09686C21.5 8.03294 20.6378 7.16499 19.5684 7.16499H13.8238C13.9358 5.76509 14.3837 4.1636 13.8854 2.27653C13.4655 0.686244 11.6794 -0.506473 10.9516 0.215877C10.6716 0.490258 10.7556 1.06702 10.7556 2.10855C10.7556 4.50518 9.75898 6.92981 8.52721 8.19532C8.00091 8.73849 7.11628 8.92327 6.27643 8.95687V8.06093H0V21.5H6.27083V19.7081C7.42422 19.6801 9.21589 19.9993 10.5148 20.0777C13.4263 20.2513 16.2258 19.9433 17.5863 19.6241C18.9469 19.305 19.546 18.8962 19.546 17.9106C19.546 17.5523 19.4396 17.2219 19.2604 16.9419C19.9211 16.6787 20.3858 16.0348 20.3858 15.2788C20.3858 14.8757 20.2514 14.5061 20.0275 14.2037C20.6938 13.9461 21.1697 13.2966 21.1697 12.535C21.1641 11.8351 20.7553 11.2247 20.1674 10.9335ZM2.6875 19.6913C2.19479 19.6913 1.79167 19.2938 1.79167 18.7954C1.79167 18.3026 2.19479 17.8995 2.6875 17.8995C3.18021 17.8995 3.58333 18.297 3.58333 18.7954C3.58333 19.2882 3.18021 19.6913 2.6875 19.6913Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2.48077" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <rect y="7.3125" width="21.5" height="12.1875"
+                                                    fill="var(--text-disabled)" />
+                                                <rect x="17.3654" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M19.0192 3.25V4.875H17.3654V3.25H14.8846V1.73164V1.625C14.8588 0.700781 14.1817 0 13.2204 0H8.09868C7.13738 0 6.61538 0.695703 6.61538 1.625V1.73164V3.25H4.13462V4.875H2.48077V3.25H0V6.5H21.5V3.25H19.0192ZM14.0577 3.22461V3.25H7.44231V3.22461V1.73164C7.44231 1.21367 7.59219 0.8125 8.15036 0.8125H13.1687C13.7063 0.8125 14.0577 1.20352 14.0577 1.73164V3.22461Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>4 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="ask-doctos__card__btn">
+                                        <button class="btn btn__ask-doctos">Chat</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ask-doctos__card flex">
+                                <div class="ask-doctos__card__top flex">
+                                    <div class="ask-doctos__card__img">
+                                        <img src="img/avatar-female.svg" alt="icon">
+                                    </div>
+                                    <div class="ask-doctos__card__text flex">
+                                        <span class="ask-doctos__card__name">dr. Joana Doe</span>
+                                        <span class="ask-doctos__card__profession">Pediatric Surgeon</span>
+                                    </div>
+    
+                                </div>
+                                <div class="ask-doctos__card__bottom flex">
+                                    <div class="ask-doctos__card__info flex">
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M20.1674 10.9335C20.9401 10.6816 21.5 9.9536 21.5 9.09686C21.5 8.03294 20.6378 7.16499 19.5684 7.16499H13.8238C13.9358 5.76509 14.3837 4.1636 13.8854 2.27653C13.4655 0.686244 11.6794 -0.506473 10.9516 0.215877C10.6716 0.490258 10.7556 1.06702 10.7556 2.10855C10.7556 4.50518 9.75898 6.92981 8.52721 8.19532C8.00091 8.73849 7.11628 8.92327 6.27643 8.95687V8.06093H0V21.5H6.27083V19.7081C7.42422 19.6801 9.21589 19.9993 10.5148 20.0777C13.4263 20.2513 16.2258 19.9433 17.5863 19.6241C18.9469 19.305 19.546 18.8962 19.546 17.9106C19.546 17.5523 19.4396 17.2219 19.2604 16.9419C19.9211 16.6787 20.3858 16.0348 20.3858 15.2788C20.3858 14.8757 20.2514 14.5061 20.0275 14.2037C20.6938 13.9461 21.1697 13.2966 21.1697 12.535C21.1641 11.8351 20.7553 11.2247 20.1674 10.9335ZM2.6875 19.6913C2.19479 19.6913 1.79167 19.2938 1.79167 18.7954C1.79167 18.3026 2.19479 17.8995 2.6875 17.8995C3.18021 17.8995 3.58333 18.297 3.58333 18.7954C3.58333 19.2882 3.18021 19.6913 2.6875 19.6913Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="ask-doctos__card__experience flex">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2.48077" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <rect y="7.3125" width="21.5" height="12.1875"
+                                                    fill="var(--text-disabled)" />
+                                                <rect x="17.3654" y="2.4375" width="1.65385" height="0.8125"
+                                                    fill="var(--text-disabled)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M19.0192 3.25V4.875H17.3654V3.25H14.8846V1.73164V1.625C14.8588 0.700781 14.1817 0 13.2204 0H8.09868C7.13738 0 6.61538 0.695703 6.61538 1.625V1.73164V3.25H4.13462V4.875H2.48077V3.25H0V6.5H21.5V3.25H19.0192ZM14.0577 3.22461V3.25H7.44231V3.22461V1.73164C7.44231 1.21367 7.59219 0.8125 8.15036 0.8125H13.1687C13.7063 0.8125 14.0577 1.20352 14.0577 1.73164V3.22461Z"
+                                                    fill="var(--text-disabled)" />
+                                            </svg>
+                                            <span>4 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="ask-doctos__card__btn">
+                                        <button class="btn btn__ask-doctos">Chat</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="testimonials flex">
+                    <div class="testimonials__content flex">
+                        <div class="testimonials__content__card flx">
+                            <div class="testimonials__content__text">
+                                <p>Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit
+                                    amet tortor sit amet libero.</p>
+                            </div>
+                            <div class="testimonials__content__icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                            </div>
+                            <div class="testimonials__content__people">
+                                <div class="testimonials__content__people__info">
+                                    <span class="testimonials__content__people__name">Jane Doe</span>
+                                    <span class="testimonials__content__people__profession">Chief Digital Officer</span>
+                                </div>
+                                <div class="testimonials__content__people__img">
+                                    <img src="img/avatar-female-small.svg" alt="people-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials__content__card">
+                            <div class="testimonials__content__text">
+                                <p>Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit
+                                    amet tortor sit amet libero.</p>
+                            </div>
+                            <div class="testimonials__content__icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                                <img src="img/star.svg" alt="star-icon">
+                            </div>
+                            <div class="testimonials__content__people">
+                                <div class="testimonials__content__people__info">
+                                    <span class="testimonials__content__people__name">John Doe</span>
+                                    <span class="testimonials__content__people__profession">Chief Digital Officer</span>
+                                </div>
+                                <div class="testimonials__content__people__img">
+                                    <img src="img/avatar-male-small.svg" alt="people-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__title">
+                        <img src="img/quote.svg" alt="quote-icon">
+                        <h2 class="heading-primary">People Testimonials</h2>
+                        <!-- <img src="img/testimonials-bg.svg" class="testimonials__bg" alt="bg">
+                        <img src="img/testimonials-bg-dark.svg" class="testimonials__bg--dark" alt="bg"> -->
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="create-appointment flex">
+                        <div class="create-appointment__content">
+                            <div class="create-appointment__title">
+                                <h4>Ready to get started ?</h4>
+                            </div>
+                            <div class="create-appointment__text">
+                                <p>
+                                    Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="create-appointment__btn flex">
+                            <button class="btn btn__create-appointment">Create Appointment Now!</button>
+                        </div>
+    
+                    </div>
+                    <div class="our-clinics flex">
+                        <div class="our-clinics__left">
+                            <div class="our-clinics__left__title">
+                                <h2 class="heading-primary">Our Clinics</h2>
+                            </div>
+                            <div class="our-clinics__left__content">
+                                <div class="our-clinics__left__contacts">
+                                    <div class="our-clinics__left__contacts__title">
+                                        <h4>Head Quarter</h4>
+                                    </div>
+                                    <div class="our-clinics__left__contacts__content">
+                                        <div class="our-clinics__left__contacts__phone-mail">
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/phone.svg" alt="phone-icon">
+                                                <a href="#">+123 456 78 91</a>
+                                            </div>
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/mail-icon.svg" alt="mail-icon">
+                                                <a href="#">hello@luxi.com</a>
+                                            </div>
+                                        </div>
+                                        <div class="our-clinics__left__contacts__info">
+                                            <img src="img/location.svg" alt="location-icon">
+                                            <a href="#">Lorem ipsum street no 14 Block A</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clinics__left__contacts">
+                                    <div class="our-clinics__left__contacts__title">
+                                        <h4>Branch Office</h4>
+                                    </div>
+                                    <div class="our-clinics__left__contacts__content">
+                                        <div class="our-clinics__left__contacts__phone-mail">
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/phone.svg" alt="phone-icon">
+                                                <a href="#">+98 765 432 10</a>
+                                            </div>
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/mail-icon.svg" alt="mail-icon">
+                                                <a href="#">hello@luxi.com</a>
+                                            </div>
+                                        </div>
+                                        <div class="our-clinics__left__contacts__info">
+                                            <img src="img/location.svg" alt="location-icon">
+                                            <a href="#">Vivamus street Block C - Vestibulum Building - 3rd Floor</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clinics__left__contacts">
+                                    <div class="our-clinics__left__contacts__title">
+                                        <h4>Branch Office</h4>
+                                    </div>
+                                    <div class="our-clinics__left__contacts__content">
+                                        <div class="our-clinics__left__contacts__phone-mail">
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/phone.svg" alt="phone-icon">
+                                                <a href="#">+98 765 432 10</a>
+                                            </div>
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/mail-icon.svg" alt="mail-icon">
+                                                <a href="#">hello@luxi.com</a>
+                                            </div>
+                                        </div>
+                                        <div class="our-clinics__left__contacts__info">
+                                            <img src="img/location.svg" alt="location-icon">
+                                            <a href="#">Vivamus street Block C - Vestibulum Building - 3rd Floor</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clinics__left__contacts">
+                                    <div class="our-clinics__left__contacts__title">
+                                        <h4>Branch Office</h4>
+                                    </div>
+                                    <div class="our-clinics__left__contacts__content">
+                                        <div class="our-clinics__left__contacts__phone-mail">
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/phone.svg" alt="phone-icon">
+                                                <a href="#">+98 765 432 10</a>
+                                            </div>
+                                            <div class="our-clinics__left__contacts__info">
+                                                <img src="img/mail-icon.svg" alt="mail-icon">
+                                                <a href="#">hello@luxi.com</a>
+                                            </div>
+                                        </div>
+                                        <div class="our-clinics__left__contacts__info">
+                                            <img src="img/location.svg" alt="location-icon">
+                                            <a href="#">Vivamus street Block C - Vestibulum Building - 3rd Floor</a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                        <div class="our-clinics__right">
+                            <img src="img/Map.svg" alt="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer container flex">
+            <div class="footer__text">
+                <div class="footer__text__logo flex">
+                    <img src="img/Luxi-Logo-footer.svg" alt="logo">
+                    <span>Medical</span>
+                </div>
+                <div class="footer__text__content">
+                    <p>Nam posuere accumsan porta. Integer id <br> orci tincidunt sit amet sed libero.</p>
+                </div>
+                <div class="footer__text__copyright">
+                    <span>&copy; Luxi Theme 2020</span>
+                </div>
+            </div>
+            <div class="footer__links flex">
+                <div class="footer__links__col">
+                    <div class="footer__links__title">
+                        <h5>COMPANY</h5>
+                    </div>
+                    <div class="footer__links__list">
+                        <ul>
+                            <li><a href="#">Donec dignissim</a></li>
+                            <li><a href="#">Curabitur egestas</a></li>
+                            <li><a href="#">Nam posuere</a></li>
+                            <li><a href="#">Aenean facilisis</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__links__col">
+                    <div class="footer__links__title">
+                        <h5>Services</h5>
+                    </div>
+                    <div class="footer__links__list">
+                        <ul>
+                            <li><a href="#">Cras convallis</a></li>
+                            <li><a href="#">Vestibulum faucibus</a></li>
+                            <li><a href="#"> Quisque lacinia purus</a></li>
+                            <li><a href="#">Aliquam nec ex</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__links__col">
+                    <div class="footer__links__title">
+                        <h5>Resources</h5>
+                    </div>
+                    <div class="footer__links__list">
+                        <ul>
+                            <li><a href="#">Suspendisse porttitor</a></li>
+                            <li><a href="#">Nam posuere</a></li>
+                            <li><a href="#">Curabitur egestas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__social-networks">
+                <div class="footer__social-networks__links">
+                    <ul class="footer__social-networks__icon flex">
+                        <li>
+                            <a href="#">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="18.75" cy="18.75" r="18.75" fill="black" fill-opacity="0.08" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.6667 14.3333V11.8529C20.6667 10.7331 20.924 10.1667 22.7318 10.1667H25V6H21.2151C16.5771 6 15.0469 8.04427 15.0469 11.5534V14.3333H12V18.5H15.0469V31H20.6667V18.5H24.4854L25 14.3333H20.6667Z"
+                                        fill="var(--color-primary)" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="19.25" cy="18.75" r="18.75" fill="black" fill-opacity="0.08" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M27.0605 10H12.0379C11.2174 10 10.5 10.5908 10.5 11.4019V26.4574C10.5 27.2732 11.2174 28 12.0379 28H27.0558C27.8811 28 28.5 27.2686 28.5 26.4574V11.4019C28.5047 10.5908 27.8811 10 27.0605 10ZM16.0796 25.0039H13.5008V16.9862H16.0796V25.0039ZM14.8793 15.7671H14.8605C14.0353 15.7671 13.5008 15.1529 13.5008 14.384C13.5008 13.6009 14.0494 13.0008 14.8933 13.0008C15.7373 13.0008 16.2531 13.5962 16.2718 14.384C16.2718 15.1529 15.7373 15.7671 14.8793 15.7671ZM25.5039 25.0039H22.9251V20.62C22.9251 19.5697 22.55 18.8523 21.6169 18.8523C20.9043 18.8523 20.4823 19.3352 20.2947 19.8041C20.2244 19.9729 20.2056 20.2027 20.2056 20.4371V25.0039H17.6268V16.9862H20.2056V18.1021C20.5807 17.5676 21.1668 16.7986 22.5312 16.7986C24.2239 16.7986 25.5039 17.9146 25.5039 20.3199V25.0039Z"
+                                        fill="var(--color-primary)" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="18.75" cy="18.75" r="18.75" fill="black" fill-opacity="0.08" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M29 12.8958C28.2626 13.2167 27.4743 13.4333 26.6436 13.5333C27.4912 13.0333 28.1439 12.2417 28.449 11.3C27.6565 11.7625 26.7792 12.1 25.8426 12.2792C25.0924 11.4917 24.0244 11 22.8462 11C20.5787 11 18.7436 12.8083 18.7436 15.0375C18.7436 15.3542 18.7775 15.6625 18.8495 15.9583C15.4378 15.7917 12.4117 14.1833 10.3901 11.7375C10.0384 12.3333 9.83492 13.0292 9.83492 13.7667C9.83492 15.1667 10.5639 16.4042 11.6658 17.1292C10.9877 17.1125 10.352 16.9292 9.80102 16.625C9.80102 16.6417 9.80102 16.6583 9.80102 16.675C9.80102 18.6333 11.2166 20.2625 13.0941 20.6333C12.7508 20.725 12.3863 20.775 12.0134 20.775C11.7506 20.775 11.4921 20.75 11.242 20.7C11.7633 22.3042 13.2806 23.4708 15.0776 23.5042C13.6747 24.5875 11.9032 25.2333 9.97902 25.2333C9.64844 25.2333 9.3221 25.2125 9 25.175C10.8097 26.3333 12.9669 27 15.281 27C22.8377 27 26.9657 20.8458 26.9657 15.5083C26.9657 15.3333 26.9614 15.1583 26.953 14.9875C27.754 14.4167 28.449 13.7083 29 12.8958Z"
+                                        fill="var(--color-primary)" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="19.25" cy="18.75" r="18.75" fill="black" fill-opacity="0.08" />
+                                    <circle cx="19.25" cy="19" r="3.5" fill="var(--color-primary)" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16.1273 15.3381C17.0339 14.4315 18.2393 13.9268 19.5214 13.9268C20.8035 13.9268 22.0088 14.4341 22.9154 15.3407C23.4906 15.916 23.9016 16.6072 24.1253 17.3786H27.7285V12.5358C27.7285 11.3996 26.8503 10.5215 25.7142 10.5215H13.3714C12.2353 10.5215 11.2714 11.3996 11.2714 12.5358V17.3786H14.9173C15.1411 16.6072 15.5521 15.9133 16.1273 15.3381ZM26.3571 14.0872C26.3571 14.3902 26.1116 14.6358 25.8086 14.6358H24.1629C23.8599 14.6358 23.6143 14.3902 23.6143 14.0872V12.4415C23.6143 12.1385 23.8599 11.8929 24.1629 11.8929H25.8086C26.1115 11.8929 26.3571 12.1385 26.3571 12.4415V14.0872Z"
+                                        fill="var(--color-primary)" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M22.9154 22.1262C22.0088 23.0328 20.8035 23.5268 19.5214 23.5268C18.2393 23.5268 17.0339 23.0355 16.1273 22.1289C15.2224 21.224 14.7234 19.9929 14.7215 18.75H11.2714V24.8786C11.2714 26.0147 12.2353 26.9786 13.3714 26.9786H25.7142C26.8503 26.9786 27.7285 26.0147 27.7285 24.8786V18.75H24.3212C24.3194 19.9929 23.8204 21.2213 22.9154 22.1262Z"
+                                        fill="var(--color-primary)" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social-networks__language flex">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11 0C4.92483 0 0 4.92488 0 11C0 17.0751 4.92483 22 11 22C17.0751 22 22 17.0751 22 11C22 4.92488 17.0751 0 11 0ZM9.86039 20.3605C7.77335 20.1106 5.84232 19.1763 4.33294 17.667C2.55211 15.8862 1.57141 13.5185 1.57141 11C1.57141 8.73284 2.36659 6.58815 3.82435 4.88342C3.8619 5.33384 3.95461 5.81673 3.93086 6.1619C3.84413 7.42029 3.71996 8.20785 4.45653 9.26951C4.74349 9.68301 4.81398 10.2758 4.95365 10.7544C5.09025 11.2226 5.63597 11.4682 6.01235 11.7567C6.77172 12.3389 7.49819 13.0156 8.30341 13.528C8.83485 13.8662 9.16681 14.0345 9.01117 14.683C8.88599 15.2045 8.85103 15.5258 8.58122 15.9905C8.49887 16.1322 8.89202 17.0438 9.02286 17.1746C9.41938 17.5711 9.81285 17.9349 10.2451 18.2918C10.9152 18.8455 10.18 19.5649 9.86039 20.3605ZM17.667 17.667C16.3114 19.0226 14.6156 19.9139 12.7722 20.2626C13.0335 19.6166 13.4986 19.0426 13.9301 18.7098C14.3054 18.4202 14.7755 17.8632 14.9716 17.422C15.1675 16.9814 15.427 16.5994 15.6896 16.1942C16.0632 15.6178 14.7684 14.7485 14.3488 14.5663C13.4046 14.1564 12.6938 13.6033 11.8547 13.0128C11.2569 12.5922 10.0431 13.2325 9.36809 12.9379C8.44361 12.5342 7.68197 11.8328 6.87838 11.2277C6.04915 10.6032 6.08924 9.87509 6.08924 8.95379C6.73877 8.97775 7.66277 8.77403 8.09399 9.29638C8.23006 9.46122 8.69793 10.1976 9.01112 9.93596C9.26697 9.72215 8.82152 8.8651 8.73548 8.66361C8.47079 8.04407 9.33858 7.80244 9.78275 7.38232C10.3624 6.83423 11.6057 5.97464 11.5074 5.58176C11.4092 5.18888 10.2634 4.07576 9.59041 4.24944C9.48956 4.27546 8.60163 5.20649 8.43007 5.35256C8.43462 5.04868 8.43917 4.74486 8.44382 4.44099C8.44673 4.24912 8.0859 4.05218 8.10266 3.92843C8.14497 3.61567 9.01556 3.04806 9.23212 2.79897C9.08039 2.70415 8.56265 2.25944 8.40596 2.3247C8.02656 2.48283 7.59809 2.59177 7.2187 2.74984C7.2187 2.61826 7.20273 2.49467 7.18369 2.37262C7.94396 2.036 8.74838 1.80194 9.57989 1.67708L10.3247 1.9764L10.8506 2.6005L11.3754 3.14166L11.8342 3.28948L12.5629 2.60224L12.375 2.11163V1.67062C13.8161 1.87994 15.177 2.41757 16.369 3.24659C16.1557 3.26568 15.9214 3.29704 15.657 3.33067C15.5478 3.26615 15.4077 3.23686 15.2887 3.19196C15.6341 3.93456 15.9943 4.66691 16.3603 5.39968C16.7513 6.18242 17.6186 7.02202 17.7709 7.84829C17.9504 8.82221 17.8259 9.70687 17.9241 10.8527C18.0186 11.9562 19.1681 13.2099 19.1681 13.2099C19.1681 13.2099 19.6989 13.3907 20.1404 13.3277C19.7289 14.9557 18.8853 16.4486 17.667 17.667Z"
+                            fill="var(--text-disabled)" />
+                    </svg>
+                    <span>English - En</span>
+                    <a href="#">
+                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.5 6.51795L13.3335 0.475147C13.4775 0.323354 13.7153 0.326968 13.8626 0.482375L14.8874 1.563C15.0347 1.7184 15.0381 1.97139 14.8941 2.12318L7.77125 9.50321C7.69758 9.58272 7.59711 9.61886 7.5 9.61163C7.39954 9.61525 7.30242 9.57911 7.22875 9.50321L0.105937 2.12318C-0.0380597 1.97139 -0.0347109 1.7184 0.112635 1.563L1.13736 0.482375C1.2847 0.326968 1.52246 0.323354 1.66646 0.475147L7.5 6.51795Z"
+                                fill="var(--text-disabled)" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="site.js"></script>
+</body>
+
+</html>

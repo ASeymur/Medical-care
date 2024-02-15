@@ -1,0 +1,122 @@
+.about-us {
+    gap: 8.2rem;
+    // background-image: url(/img/Dots-big.svg);
+    // background-repeat: no-repeat;
+    // background-position: 200px 500px; 
+
+    &__left {
+        position: relative;
+
+        &__title {
+            border: 1px solid #03A9F4;
+            border-radius: 50%;
+            padding: 5.2rem 5.2rem; 
+            position: absolute;
+            top: 9.4rem;
+            left: 15.4rem;
+            z-index: 1;
+        }
+
+        &__circle {
+            @include circle;
+
+            h2 {
+                padding: 11.6rem 3.8rem;  
+            }
+        }
+
+        &__dots {
+            transform: translateY(-34rem);
+            padding-left: 5.9rem;
+        } 
+    }
+
+    &__right {
+        &__content {
+            display: flex;
+            gap: 4.5rem;
+            margin-top: 6.7rem;
+            margin-bottom: 15.2rem;
+            padding-left: 1rem;
+        }
+
+        &__heading {
+            padding-top: 11.9rem;
+
+            h3 {
+                font-weight: 700;
+                font-size: 2.8rem;
+                line-height: 4.2rem;
+                padding-right: 20rem;
+                color: var(--text-primary-light);
+            }
+        }
+
+        &__clinics-doctors {
+            position: relative;
+        }
+
+        &__text {
+            // margin-top: 7.6rem;
+            border-left: .35rem solid var(--color-border-left);
+
+            p {
+                @include font-small;
+                line-height: 3.6rem;
+                font-style: italic;
+                color: var(--text-secondary-light);
+                padding-right: 25rem;
+                padding-left: 1.9rem;
+            }
+        }
+
+        &__info {
+            @include flex-column;
+            transform: translateY(3.5rem);
+
+            span {
+                font-weight: 700;
+                font-size: 3.6rem;
+                line-height: 5.6rem;
+                padding-left: 5.7rem;
+                color: var(--text-primary-light);
+
+            }
+        }
+
+        &__line {
+            position: absolute;
+            border: 1px solid var(--color-secondary-light);
+            width: 19.5rem;
+            transform: rotate(-57deg);
+            margin-left: 5.7rem;
+        }
+
+        &__schedule {
+            color: var(--text-primary);
+            @include flex-column-center;
+            gap: .9rem;
+            transform: translateY(5rem);
+            padding-left: 1.8rem;
+
+            &--digits {
+                font-weight: 700;
+                font-size: 6.2rem;
+                line-height: 5.6rem;
+            }
+
+            &--text {
+                @include btn-font-medium;
+            }
+        }
+    }
+
+    // &__dots {
+    //     // transform: translateY(-34rem);
+    //     // padding-left: 5.9rem;
+    // }
+
+    &__bg__circle {
+        transform: translateY(-2.2rem);
+    }
+}

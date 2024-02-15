@@ -1,0 +1,8 @@
+.heading-primary {
+   @include font-big;
+}
+
+.heading-secondary {
+ @include heading-font-secondary;
+ color: $color-white;
+}

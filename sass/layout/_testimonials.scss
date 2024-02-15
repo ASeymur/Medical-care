@@ -1,0 +1,96 @@
+.testimonials {
+    transform: translateY(-6rem);
+    gap: 8.4rem;
+    padding-left: 19.6rem;
+    padding-right: 23rem;
+    // max-width: 109.3rem;
+    position: relative;
+
+    // &__bg{
+    //     position: absolute;
+    //     // overflow: hidden;
+    //     z-index: -1;
+    //     top: -220px;
+    //     right: -23rem;
+
+    //     &--dark {
+
+    //         display: none;
+    //     }
+    // }
+
+    &__content {
+        gap: 5.6rem;
+
+        &__card {
+            padding: 3.2rem 1.9rem 2.5rem 4rem;
+            background-color: var(--paper-light);
+            box-shadow: 0rem .3rem 2rem .5rem rgba(0, 0, 0, 0.04);
+            border-radius: 0% 50% 50% 50%;
+            @include flex-column;
+            z-index: 1;
+        }
+
+        &__text {
+            margin-bottom: 3.2rem;
+            p {
+                color: var(--text-primary);
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                padding-right: 5rem;
+            }
+        }
+
+        &__icon {
+            margin-bottom: 1.86rem;
+            display: flex;
+            gap: .7rem;
+        }
+
+        &__people {
+            display: flex;
+            align-self: flex-end;
+            align-items: center;
+            gap: 1.5rem;
+
+            &__info {
+                @include flex-column;
+                gap: .9rem;
+            }
+
+            &__img {
+                
+                img {
+                    border-radius: 50% 50% 0 50%;
+                }
+            }
+
+            &__name {
+                color: var(--text-primary);
+                font-weight: 900;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                text-align: right;
+            }
+
+            &__profession {
+                color: var(--text-grey-card);
+                font-weight: 400;
+                font-size: 1.2rem;
+                line-height: 1.4rem;
+                text-align: right;
+                font-style: italic;
+            }
+        }
+    }
+
+    &__title {
+        transform: translateY(-4.1rem);
+
+        h2 {
+            margin-top: 4rem;
+            color: var(--color-primary-dark);
+        }
+    }
+}

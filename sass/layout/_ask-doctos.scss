@@ -1,0 +1,127 @@
+.ask-doctos {
+    margin-top: 11.85rem;
+    transform: translateY(-30rem);
+    padding-left: 11.2rem;
+    // max-width: 111.8rem;
+    // height: auto;
+
+    &__left {
+        // padding-right: 130rem;
+        flex-direction: column;
+        gap: 3.437rem;
+        margin-right: 16.2rem;
+    }
+
+    &__title {
+        color: var(--text-primary);
+        padding-left: .9rem;
+        // background-color: aqua;
+
+    }
+
+    &__list {
+        flex-direction: column;
+  
+        gap: 5rem;
+
+        a {
+            color: var(--text-primary);
+            @include font-small;
+            line-height: 3.6rem;
+            padding-left: 1.8rem;
+            padding-right: 4.058rem;
+        }
+
+        li:hover {
+            background-color: var(--color-primary-light);
+            // padding-left: 1rem;
+            transition: all .5s;
+            border-radius: 3.6rem;
+
+            a {
+                color: $hover-color;
+            }
+        }
+    }
+
+    &__right {
+        gap: 4.95rem;
+
+        &__column {
+            @include flex-column;
+            gap: 8rem;
+        }
+    }
+
+    &__card {
+        background-color: var(--paper-light);
+        box-shadow: 0px .3rem 2rem .5rem rgba(0, 0, 0, 0.03);
+        border-radius: 1.5rem;
+        flex-direction: column;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        position: relative;
+
+        &__top {
+            border-bottom: 1px solid var(--color-border-bottom);
+            gap: 1.6rem;
+        }
+
+        &__bottom {
+            gap: 5.6rem;
+            padding-top: 1.25rem;
+            padding-bottom: 1.7rem;
+        }
+
+        &__img {
+            // transform: translate(-5.25rem, -3rem);
+            position: absolute;
+            top: -3.5rem;
+            left: -3rem;
+            img {
+                border-top-right-radius: 50%;
+                border-bottom-right-radius: 50%;
+                border-bottom-left-radius: 50%;
+            }
+        }
+
+        &__name {
+            color: var(--text-primary);
+            @include font-small;
+            line-height: 2.9rem;
+        }
+
+        &__profession {
+            color: var(--text-grey-card);
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+        }
+
+        &__text {
+            flex-direction: column;
+            // transform: translateX(-5.25rem);
+            padding-top: .97rem;
+            padding-left: 6.1rem;
+            gap: .7rem;
+            padding-bottom: 1.7rem;
+        }
+
+        &__info {
+            gap: 2.8rem;
+        }
+
+        &__experience {
+            gap: .85rem;
+            align-items: center;
+
+            span {
+                color: var(--text-grey-card);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+
+    }
+}

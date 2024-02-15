@@ -1,0 +1,111 @@
+.clinic-facilities {
+    margin-top: -34rem;
+    background-image: url(/img/clinic-facilities-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right -6rem;
+    background-size: 48%;
+    padding-top: 55rem;
+    transform: translateY(-30rem);
+    padding-left: 4.4rem;
+
+    &__title {
+        color: var(--color-primary-dark);
+    }
+
+    &__content {
+        // width: 100%;
+        max-width: 86.6rem;
+        // padding-left: 4.4rem;
+        display: flex;
+        gap: 4.1rem;
+        transform: translateY(-22rem);
+    
+
+        &__card {
+            background-color: var(--paper-light);
+            // @include flex-column;
+            width: 33.33%;
+            // width: 25.8rem;
+            // padding-left: 8rem;
+            box-shadow: 0rem .3rem 2.4rem .4rem rgba(0, 0, 0, 0.06);
+            border-radius: 1.2rem;
+
+            // &:hover {
+            //     transform: scalex(1);
+            // }
+
+            &--padding-left {
+                margin-left: 1rem;
+            }
+        }
+
+        &__text {
+            h4 {
+                color: var(--text-primary);
+                font-weight: 700;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                padding-left: 1.8rem;
+                padding-top: 2.4rem;
+                padding-bottom: 1.7rem;
+            }
+
+            p {
+                color: var(--text-secondary);
+                padding-right: 3.5rem;
+                padding-left: 2rem;
+                padding-bottom: 2.7rem;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+            }
+        }
+
+        &__img {
+            img {
+                width: 100%;
+                border-top-left-radius: 1.2rem;
+                border-top-right-radius: 1.2rem;
+                border-bottom-right-radius: 5.5rem;
+            }
+        }
+
+        &__button {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &__heading {
+        margin-left: 13.5rem;
+        transform: translateY(-22rem);
+        @include flex-column;
+        justify-content: flex-end;
+
+        &__icon {
+            transform: translateY(-16.8rem);
+        }
+
+        &__title {
+            h2 {
+                padding-right: 12rem;
+                transform: translateY(-12.8rem);
+            }
+        }
+
+        &__arrows {
+            display: flex;
+            gap: 1.4rem;
+        }
+
+        &__arrow {
+            fill: var(--color-primary-arrow);
+            background-color: var(--paper-light); 
+            // width: 42px;
+            // height: 42px;
+            padding: .9rem;
+            box-sizing: content-box;
+            border-radius: 50%;
+        }
+    }
+}

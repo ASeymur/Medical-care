@@ -1,0 +1,21 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/dark-mode";
+
+@import "components/button";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/medical-care";
+@import "layout/about-us";
+@import "layout/clinic-facilities";
+@import "layout/our-speciality";
+@import "layout/ask-doctos";
+@import "layout/testimonials";
+@import "layout/create-appointment";
+@import "layout/our-clinics";
+

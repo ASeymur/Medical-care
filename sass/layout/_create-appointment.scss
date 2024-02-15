@@ -1,0 +1,41 @@
+.create-appointment {
+    z-index: 1;
+    margin-top: 15.5rem;
+    margin-bottom: 15.279rem;
+    padding: 2.9rem 7.6rem 4.721rem 9.9rem;
+    background-color: var(--paper-light);
+    gap: 8.3rem;
+    align-items: flex-end;
+    border: .4rem solid #03ACF2;
+    box-shadow: 0rem .3rem 4.9rem .9rem rgba(0, 0, 0, 0.06);
+    border-radius: 2.4rem;
+  
+
+    &__title {
+        margin-bottom: 1.2rem;
+
+        h4 {
+            color: var(--text-primary);
+            font-weight: 900;
+            font-size: 3.6rem;
+            line-height: 4.3rem;
+        }
+    }
+
+    &__text {
+
+        p {
+            color: var(--text-primary);
+            @include font-small;
+            line-height: 2.9rem;
+        }
+    }
+
+    // &__btn {
+
+    //     button {
+
+    //         align-items: center;
+    //     }
+    // }
+}

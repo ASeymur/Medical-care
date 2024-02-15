@@ -1,0 +1,210 @@
+.our-speciality {
+    padding-left: 4.9rem;
+    transform: translateY(-30rem);
+
+    &__circle {
+        @include circle-border;
+
+        &--big {
+            padding: 8.765rem 8.775rem;
+            position: relative;
+        }
+
+        &--small {
+            padding: 5.2rem 5.2rem;
+        }
+
+        &__flask {
+            a {
+                @include speciality-icon;
+                padding: 1.85rem 2rem;
+                background: #03ACF2;
+                top: 9.815rem;
+                left: .515rem;
+            }
+        }
+
+        &__medkit {
+            a {
+                @include speciality-icon;
+                padding: 2.1rem 1.87rem;
+                background: #4CAF50;
+                top: -3rem;
+                left: 24.865rem;
+            }
+        }
+
+        &__heart {
+
+            a {
+                @include speciality-icon;
+                padding: .65rem .55rem .25rem .55rem;
+                background: #F42E88;
+                top: 9.015rem;
+                right: 4.885rem;
+            }
+        }
+
+        &__rose {
+
+            a {
+                @include speciality-icon;
+                padding: .5rem .85rem .1rem .85rem;
+                background: #03ACF2;
+                top: 24.565rem;
+                right: 6.185rem;
+            }
+        }
+
+        &__pulse {
+
+            a {
+                @include speciality-icon;
+                padding: 2.1rem 1.85rem;
+                background: #F42E88;
+                bottom: 3.7rem;
+                right: 10.885rem;
+            }
+        }
+
+        &__contacts {
+
+            a {
+                @include speciality-icon;
+                padding: .65rem .6rem;
+                background: #F42E88;
+                bottom: 7.585rem;
+                left: 4.215rem;
+            }
+        }
+
+        &__radio-waves {
+
+            a {
+                @include speciality-icon;
+                padding: 1.425rem .95rem;
+                background: #4CAF50;
+                bottom: 14.135rem;
+                left: 9.865rem;
+                display: flex;
+
+            }
+        }
+    }
+
+    &__heading {
+        @include circle;
+
+        h2 {
+
+            padding: 7.4rem 3.1rem 9.36rem 3.1rem;
+        }
+    }
+
+    &__right {
+        margin-left: 10.45rem;
+        margin-right: 11.3rem;
+
+        &__title {
+            padding-bottom: 4.8rem;
+            padding-top: 8.4rem;
+
+            h3 {
+                font-weight: 700;
+                font-size: 2.8rem;
+                line-height: 4.2rem;
+                padding-right: 20rem;
+                color: var(--text-primary-light);
+            }
+        }
+
+        &__content {
+            padding-bottom: 4.9rem;
+
+            p {
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: var(--text-primary);
+                padding-right: 7rem;
+            }
+        }
+
+        &__doctors {
+            flex-direction: column;
+            gap: 1.6rem;
+
+            a {
+                font-weight: 400;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                border-radius: 1.5rem;
+            }
+
+            &__list1 {
+                gap: 1.6rem;
+                
+                a {
+                    color: var(--text-tretiary);
+                    border: .1rem solid var(--color-border);
+                }
+            }
+
+            &__list2 {
+                a {
+                    color: $color-white;
+                    background: var(--color-primary-main);
+                }
+            }
+
+            &__list3 {
+                gap: 1.6rem;
+                a {
+                    color: var(--text-tretiary);
+                    border: .1rem solid var(--color-border);
+                }
+            }
+
+            &__dentist {
+                padding: .58rem 4.082rem;
+            }
+
+            &__padriatic {
+                padding: .63rem 4.63rem;
+            }
+
+            &__cardiology {
+                padding: .58rem 5.709rem;
+            }
+
+            &__traumatologi {
+                padding: .71rem 4.045rem;
+                margin-right: 2rem;
+            }
+
+            &__othopaedi {
+                padding: .71rem 2.924rem;
+                margin-right: 1.5rem;
+            }
+
+            &__anestesiologi {
+                padding: .71rem 4.359rem;
+            }
+
+            &__reumatologi {
+                padding: .62rem 3.228rem;
+            }
+
+            &__andrologi {
+                padding: 0 3.588rem;
+                align-items: center;
+            }
+
+            &__ortodonsia {
+                padding: 0 5.572rem;
+                align-items: center;
+            }
+
+        }
+    }
+}
